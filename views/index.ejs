@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Transform Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="code">
+        <div class="base">
+            <p>Base Transform</p>
+            <pre class="prettyprint"><%= JSON.stringify(baseTransformDisplay, null, 2) %></pre>
+        </div>
+        <div class="configure">
+            <p>Configurable</p>
+            <pre class="prettyprint"><%= JSON.stringify(addOnDisplay, null, 2) %></pre>
+        </div>
+    </div>
+    <div class="transformed">
+        <p>Input</p>
+        <pre class="prettyprint"><%= JSON.stringify(inputStr, null, 2) %></pre>
+    </div>
+    <div class="transformed">
+        <p>Transformed Output</p>
+        <pre class="prettyprint"><%= JSON.stringify(data, null, 2) %></pre>
+    </div>
+  </body>
+</html>
