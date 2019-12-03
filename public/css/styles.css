@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+}
+.code {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.base {
+    margin-right: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.configure {
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.transformed {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
