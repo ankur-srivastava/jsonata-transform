@@ -7,4 +7,4 @@ $ npm install
 
 $ npm start
 
-!transforms.png
+![Outcome](/transform.png)
