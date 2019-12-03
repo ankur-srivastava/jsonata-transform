@@ -1,5 +1,5 @@
-# JSONATA Transforms - Extend and Merge feature
-# Author - Ankur Srivastava
+## JSONATA Transforms - Extend and Merge feature
+### Author - Ankur Srivastava
 
 A POC for Transform features
 
@@ -7,4 +7,4 @@ $ npm install
 
 $ npm start
 
-![Outcome](/transform.png)
+![Outcome](https://github.com/ankur-srivastava/jsonata-transform/blob/master/transforms.png)
