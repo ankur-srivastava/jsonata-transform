@@ -1,8 +1,10 @@
-# transforms-poc
+# JSONATA Transforms - Extend and Merge feature
+# Author - Ankur Srivastava
+
 A POC for Transform features
 
 $ npm install
 
-To run : 
-
 $ npm start
+
+!transforms.png
